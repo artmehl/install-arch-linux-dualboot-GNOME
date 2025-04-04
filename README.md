@@ -1,7 +1,7 @@
-# Arch Linux + KDE Plasma Installation Guide (Dualboot)
+# Arch Linux + GNOME Installation Guide (Dualboot)
 All credits to [edudscrc](https://github.com/edudscrc)
 
-Learn how to install Arch Linux with Hyprland. Minimal installation.
+Learn how to install Arch Linux with GNOME. Minimal installation.
 
 <ol>
 <li>Download Arch Linux ISO</li>
@@ -192,14 +192,11 @@ Learn how to install Arch Linux with Hyprland. Minimal installation.
   $ rm -r yay
 </pre>
 
-### Install KDE Plasma and some useful packages:
+### Install GNOME and some useful packages:
 <pre>
-  $ sudo pacman -S xorg plasma plasma-wayland-session kde-applications 
-  <i>[bluedevil is the KDE's Bluetooth tool]</i>
-  $ sudo pacman -S bluedevil
-  $ sudo systemctl enable bluetooth.service
-  $ sudo systemctl start bluetooth.service
-  $ systemctl enable sddm.service
+  $ sudo pacman -S xorg
+  $ sudo pacman -S gnome 
+  $sudo systemctl enable gdm.service
 </pre>
 
 ### Install yay and a fast image viewer:
