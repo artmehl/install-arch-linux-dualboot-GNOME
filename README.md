@@ -129,7 +129,7 @@ Learn how to install Arch Linux with GNOME. Minimal installation.
 </pre>
 
 <h1 align="center">
-    Setup Userspace and KDE
+    Setup Userspace and GNOME
 </h1>
 
 ### Activate time synchronization using NTP:
