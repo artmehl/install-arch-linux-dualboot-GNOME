@@ -218,5 +218,5 @@ Learn how to install Arch Linux with GNOME. Minimal installation.
 <pre>
   $ sudo pacman -S steam discord
   $ sudo pacman -S fastfetch qbittorrent
-  $ yay -S spotify visual-studio-code-bin
+  $ yay -S spotify visual-studio-code-bin pwvucontrol
 </pre>
