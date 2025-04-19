@@ -172,7 +172,6 @@ Learn how to install Arch Linux with GNOME. Minimal installation.
   $ sudo pacman -S bash-completion openssh eza
   $ sudo pacman -S python python-gobject
   $ sudo pacman -S ripgrep fuse2
-  curl -fsSL https://pyenv.run | bash
 </pre>
 
 ### Install necessary fonts:
@@ -181,6 +180,14 @@ Learn how to install Arch Linux with GNOME. Minimal installation.
   $ sudo pacman -S noto-fonts-cjk ttf-jetbrains-mono
   $ sudo pacman -S ttf-jetbrains-mono-nerd
   $ sudo pacman -S ttf-liberation otf-font-awesome
+</pre>
+
+### Install sound drivers and sound support:
+<pre>
+  $ sudo pacman -S pipewire wireplumber pipewire-audio
+  $ sudo pacman -S pipewire-alsa pipewire-pulse
+  $ sudo pacman -S pipewire-jack  # If it asks to replace jack-2, replace it.
+  $ sudo pacman -S lib32-pipewire pavucontrol
 </pre>
 
 ### Install yay:
